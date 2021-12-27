@@ -164,6 +164,8 @@
     display: inline-flex;
     align-items: center;
     margin-right: 40px;
+    color: #4A545B;
+    text-decoration: none;
 }
 
 .conditions__img{
