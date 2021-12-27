@@ -1,0 +1,85 @@
+@media screen and (max-width: 1900px) {
+    .header_background{
+        height: 115px;
+    }
+    
+    .panel_inf{
+        margin: 56px 70px;
+    }
+    
+    .button_back img{
+        height: 49px;
+    }
+    
+    .rent_inf__cond{
+        font-size: 26px;
+        margin-left: 14px;
+        margin-bottom: 4px;
+    }
+    
+    .rent_inf__addres{
+        font-size: 16px;
+        margin-left: 14px;
+    }
+    
+    .price_block{
+        padding: 21px 35px;
+        font-size: 18px;
+    }
+    
+    .central_content{
+        margin: 70px 56px;
+    }
+    
+    .gallery{
+        width: 700px;
+    }
+    
+    .gallery__item_block{
+        margin-top: 7px;
+        width: 700px;
+    }
+    
+    .gallery__item{
+        margin-top: 21px;
+        width: 210px;
+    }
+    
+    .map_block{
+        height: 490px;
+        width: calc(100% - 735px);
+    }
+    
+    .descr{
+        margin: 28px 70px;
+    }
+    
+    .descr_head{
+        font-size: 24px;
+    }
+    
+    .descr__text{
+        margin-top: 42px;
+        font-size: 14px;
+    }
+    
+    .options{
+        margin: 35px 140px 56px;
+    }
+    
+    .options__item{
+        width: 280px;
+        margin: 0 28px 21px;
+    }
+    
+    .options__img{
+        width: 84px;
+        margin-bottom: 21px;
+    }
+    
+    .options__text{
+        width: 210px;
+        font-size: 16px;
+        line-height: 1.3;
+    }
+  }

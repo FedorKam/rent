@@ -1,0 +1,59 @@
+.main_container .owl-theme .owl-prev{
+    display: none;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 20px;
+    color: #0000006b;
+    font-size: 4em;
+    background-color: inherit;
+}
+
+.main_container .owl-theme .owl-next{
+    display: none;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 20px;
+    color: #0000006b;
+    font-size: 4em;
+    background-color: inherit;
+}
+
+.main_container .owl-theme:hover .owl-next{
+    display: block;
+}
+
+.main_container .owl-theme:hover .owl-prev{
+    display: block;
+}
+
+.owl-dots{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.main_container .owl-theme .owl-dots .owl-dot span{
+    width: 8px;
+    height: 8px;
+    background: #ffffff95;
+    border: 1px solid #33333395;
+}
+
+.main_container .owl-theme .owl-dots .owl-dot:hover span{
+    background: #b9b9b9A5;
+}
+
+@media screen and (max-width: 1165px) {
+    .main_container .owl-theme .owl-next{
+        font-size: 3em;
+        display: block;
+    }
+    
+    .main_container .owl-theme .owl-prev{
+        font-size: 3em;
+        display: block;
+    }
+}

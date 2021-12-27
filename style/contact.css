@@ -1,0 +1,130 @@
+.onlyMob{
+    display: none;
+}
+
+.contact_inf{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.contact_inf__item{
+    display: flex;
+    align-items: center;
+}
+
+.contact_inf__text_marginTop{
+    margin-top: 10px;
+}
+
+.contact_inf__icon{
+    height: 60px;
+}
+
+.contact_inf__text{
+    width: 265px;
+    margin-left: 20px;
+    font-size: 24px;
+}
+
+.contact_inf__link{
+    display: inline;
+    cursor: pointer;
+}
+
+.contact_inf__link_yellow{
+    color: #FCD000;
+}
+
+.contact_inf__blockLink{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    line-height: 1.2;
+}
+
+@media screen and (max-width: 2300px) {
+    .contact_inf__text_marginTop{
+        margin-top: 7.5px;
+    }
+    
+    .contact_inf__icon{
+        height: 45px;
+    }
+    
+    .contact_inf__text{
+        width: 200px;
+        margin-left: 15px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1580px) {
+
+    .contact_inf{
+        padding-top: 22px;
+    }
+
+    .contact_inf__text_marginTop{
+        margin-top: 5.6px;
+    }
+    
+    .contact_inf__icon{
+        height: 33px;
+    }
+    
+    .contact_inf__text{
+        width: 150px;
+        margin-left: 11px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 1165px) {
+
+    .contact_inf{
+        padding-top: 30px;
+        justify-content: flex-start;
+        margin-left: 10px;
+    }
+
+    .footer .contact_inf{
+        padding-top: 50px;
+    }
+    
+    .contact_inf__item:nth-child(2){
+        display: none;
+    }
+  
+    .contact_inf__item:nth-child(3){
+      display: none;
+    }
+  
+    .contact_inf__text_marginTop{
+        margin-top: 10px;
+    }
+  
+    .contact_inf__icon{
+        height: 50px;
+    }
+  
+    .contact_inf__text{
+        width: 160px;
+        margin-left: 5px;
+        font-size: 14px;
+    }
+
+    .onlyMob{
+        display: block;
+    }
+
+    .onlyMob .contact_inf__icon{
+        height: 30px;
+    }
+
+    .onlyMob .contact_inf__text{
+        font-size: 12px;
+    }
+}

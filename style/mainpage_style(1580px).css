@@ -1,0 +1,128 @@
+@media screen and (max-width: 1580px) {
+    
+    .top_block__desk{
+        height: 506px;
+    }
+    
+    .top_background{
+        height: 365px;
+    }
+    
+    .header_title{
+        height: calc(100% - 56px);
+    }
+    
+    .header_title__img_num1{
+        max-width: 337px;
+    }
+    
+    .header_title__img_num2{
+        max-width: 281px;
+    }
+    
+    .header_title__main_text{
+        font-size: 27px;
+        width: 483.7px;
+    }
+    
+    .header_title__sub_text{
+        width: 342.7px;
+        font-size: 18px;
+    }
+    
+    .header_title__text{
+        margin-left: 4.2px;
+        font-size: 13.5px;
+    }
+    
+    .person{
+        top: 365px;
+        height: 140px;
+    }
+    
+    .person__img{
+        width: 230px;
+        top: -56px;
+        left: 112px;
+    }
+    
+    .person__name{
+        top: 24.7px;
+        left: 376px;
+        font-size: 19px;
+    }
+    
+    .person__post{
+        top: 56px;
+        left: 376px;
+        font-size: 13px;
+    }
+    
+    .person_inf{
+        right: 84px;
+        bottom: 45px;
+    }
+    
+    .person_inf__point{
+        width: 168.7px;
+        height: 28px;
+    }
+    
+    .person_inf__text{
+        font-size: 16px;
+    }
+    
+    .person_inf__text_grey{
+        font-size: 13px;
+        margin-bottom: 8px;
+    }
+    
+    .conditions{
+        padding: 24.7px;
+    }
+    
+    .conditions__item{
+        margin-right: 7.5px;
+    }
+    
+    .conditions__img{
+        width: 112px;
+    }
+    
+    .conditions__text{
+        width: 142px;
+        font-size: 14px;
+    }
+    
+    .rent_catalog{
+        margin: 20px 40px;
+        width: calc(100% - 80px);
+    }
+
+    .rent_catalog__modif{
+        top: 14px;
+        left: 14px;
+        font-size: 12px;
+    }
+    
+    .rent_catalog__item{
+        width: 337px;
+        margin-bottom: 56px;
+    }
+
+    .rent_catalog__img{
+        border-radius: 30px;
+    }
+    
+    .rent_catalog__inf{
+        margin-top: 11px;
+        font-size: 15.7px;
+        width: calc(100% - 56px);
+    }
+    
+    .rent_catalog__price{
+        margin-top: 11px;
+        font-size: 14px;
+        width: calc(100% - 56px);
+    }
+  }

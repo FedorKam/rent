@@ -1,0 +1,18 @@
+html{
+    font-family: TTFirsNeue;
+    color: #4A545B;
+}
+
+@font-face {
+    font-family: "TTFirsNeue"; 
+    src: url("../fonts/TTFirsNeue-Light.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face {
+    font-family: "TTFirsNeue"; 
+    src: url("../fonts/TTFirsNeue-Medium.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: bold; 
+}

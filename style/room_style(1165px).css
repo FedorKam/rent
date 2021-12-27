@@ -1,0 +1,130 @@
+@media screen and (max-width: 1165px) {
+    .header_background{
+        height: 120px;
+    }
+    
+    .panel_inf{
+        margin: 20px;
+    }
+    
+    .button_back img{
+        display: none;
+    }
+    
+    .rent_inf__cond{
+        font-size: 22px;
+        font-weight: bold;
+        margin-left: 0;
+        line-height: 1.4;
+        margin-bottom: 5px;
+    }
+    
+    .rent_inf__addres{
+        font-size: 16px;
+        margin-left: 0;
+    }
+    
+    .price_block{
+        display: none;
+    }
+
+    .retHome{
+        position: absolute;
+        right: 20px;
+        top: 30px;
+    }
+
+    .retHome img{
+        height: 60px;
+    }
+    
+    .central_content{
+        margin: 20px;
+        flex-direction: column;
+    }
+    
+    .gallery{
+        width: 100%;
+    }
+    
+    .gallery__item_block{
+        margin-top: 0;
+        width: 100%;
+    }
+
+    .gallery__item_block .button{
+        width: 32%;
+    }
+    
+    .gallery__item{
+        margin-top: 3px;
+        width: 100%;
+    }
+    
+    .map_block{
+        height: 343px;
+        width: 100%;
+    }
+
+    .descr_contact{
+        display: none;
+    }
+
+    .descr_contact.onlyMob{
+        display: block;
+        position: relative;
+        width: 100%;
+        text-align: center;
+        margin: 50px 0;
+    }
+
+    .descr_contact .contact_inf__text{
+        width: auto;
+        margin: 0 10px;
+    }
+
+    .contact_inf__item{
+        justify-content: center;
+    }
+
+    .contact_inf__blockLink{
+        background-color: #FCD000;
+        border-radius: 50px;
+        padding: 5px;
+    }
+    
+    .descr{
+        margin: 20px;
+    }
+    
+    .descr_head{
+        font-size: 18px;
+    }
+    
+    .descr__text{
+        margin-top: 15px;
+        font-size: 12px;
+    }
+    
+    .options{
+        margin: 20px;
+    }
+    
+    .options__item{
+        width: 50%;
+        margin: 0 0 30px;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+    
+    .options__img{
+        width: 50px;
+        margin-bottom: 15px;
+    }
+    
+    .options__text{
+        width: 110px;
+        font-size: 10px;
+    }
+  }
